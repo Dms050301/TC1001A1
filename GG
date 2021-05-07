@@ -1,0 +1,214 @@
+Last login: Thu May  6 09:01:03 on ttys000
+luiszepeda@MacBook-Air-de-Luis ~ % cd Desktop                           
+luiszepeda@MacBook-Air-de-Luis Desktop % cd Taller\ de\ simulcación\  
+luiszepeda@MacBook-Air-de-Luis Taller de simulcación  % cd ..
+luiszepeda@MacBook-Air-de-Luis Desktop % cd Semestre\ 4
+luiszepeda@MacBook-Air-de-Luis Semestre 4 % cd Semana\ Tec\ 2
+luiszepeda@MacBook-Air-de-Luis Semana Tec 2 % git config --global user.name "luiszepeda1"
+luiszepeda@MacBook-Air-de-Luis Semana Tec 2 % git config --global user.email "A01424057@itesm.mx"
+luiszepeda@MacBook-Air-de-Luis Semana Tec 2 % git init
+Reinicializado el repositorio Git existente en /Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/.git/
+luiszepeda@MacBook-Air-de-Luis Semana Tec 2 % git clone https://github.com/Dms050301/TC1001A1
+Clonando en 'TC1001A1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Recibiendo objetos: 100% (3/3), listo.
+luiszepeda@MacBook-Air-de-Luis Semana Tec 2 % cd TC1001A1 
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % python3 paint.py
+/usr/local/bin/python3: can't open file '/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py': [Errno 2] No such file or directory
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % python3 -m freegames copy paint
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % python3 paint.py               
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git branch luiszepeda
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git checkout luiszepeda
+Cambiado a rama 'luiszepeda'
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git status
+En la rama luiszepeda
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	paint.py
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % vim paint.py
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % python3 paint.py
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % vim paint.py    
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % python3 paint.py
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 674, in eventfun
+    fun(x, y)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py", line 76, in tap
+    forward(end.x - start.x)
+UnboundLocalError: local variable 'end' referenced before assignment
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % python3 paint.py
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 674, in eventfun
+    fun(x, y)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py", line 76, in tap
+    forward(end.x - start.x)
+UnboundLocalError: local variable 'end' referenced before assignment
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 674, in eventfun
+    fun(x, y)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py", line 76, in tap
+    forward(end.x - start.x)
+UnboundLocalError: local variable 'end' referenced before assignment
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 674, in eventfun
+    fun(x, y)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py", line 76, in tap
+    forward(end.x - start.x)
+UnboundLocalError: local variable 'end' referenced before assignment
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 674, in eventfun
+    fun(x, y)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py", line 76, in tap
+    forward(end.x - start.x)
+UnboundLocalError: local variable 'end' referenced before assignment
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % vim paint.py    
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % python3 paint.py
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 674, in eventfun
+    fun(x, y)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py", line 76, in tap
+    forward(end.x - start.x)
+UnboundLocalError: local variable 'end' referenced before assignment
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 674, in eventfun
+    fun(x, y)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py", line 76, in tap
+    forward(end.x - start.x)
+UnboundLocalError: local variable 'end' referenced before assignment
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 674, in eventfun
+    fun(x, y)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py", line 76, in tap
+    forward(end.x - start.x)
+UnboundLocalError: local variable 'end' referenced before assignment
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 674, in eventfun
+    fun(x, y)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py", line 76, in tap
+    forward(end.x - start.x)
+UnboundLocalError: local variable 'end' referenced before assignment
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 674, in eventfun
+    fun(x, y)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py", line 76, in tap
+    forward(end.x - start.x)
+UnboundLocalError: local variable 'end' referenced before assignment
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 674, in eventfun
+    fun(x, y)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py", line 76, in tap
+    forward(end.x - start.x)
+UnboundLocalError: local variable 'end' referenced before assignment
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % vim paint.py    
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % python3 paint.py
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
+    return self.func(*args)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/turtle.py", line 674, in eventfun
+    fun(x, y)
+  File "/Users/luiszepeda/Desktop/Semestre 4/Semana Tec 2/TC1001A1/paint.py", line 76, in tap
+    forward(end.x - start.x)
+UnboundLocalError: local variable 'end' referenced before assignment
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % vim paint.py    
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % python3 paint.py
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % python3 paint.py
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % vim paint.py    
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % python3 paint.py
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git status
+En la rama luiszepeda
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que se será confirmado)
+	paint.py
+
+no hay nada agregado al commit pero hay archivos sin seguimiento presentes (usa "git add" para hacerles seguimiento)
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git checkout main
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git pull
+Desde https://github.com/Dms050301/TC1001A1
+ * [nueva rama]      a01424051  -> origin/a01424051
+Ya está actualizado.
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git add .
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git push origin luiszepeda
+Total 0 (delta 0), reusado 0 (delta 0), pack-reusado 0
+remote: 
+remote: Create a pull request for 'luiszepeda' on GitHub by visiting:
+remote:      https://github.com/Dms050301/TC1001A1/pull/new/luiszepeda
+remote: 
+To https://github.com/Dms050301/TC1001A1
+ * [new branch]      luiszepeda -> luiszepeda
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git status
+En la rama main
+Tu rama está actualizada con 'origin/main'.
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+	nuevo archivo:  paint.py
+
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git checkout luiszepeda
+A	paint.py
+Cambiado a rama 'luiszepeda'
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git add paint.py
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git commit -m paint.py
+[luiszepeda ff49d49] paint.py
+ 1 file changed, 100 insertions(+)
+ create mode 100644 paint.py
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git push origin luiszepeda
+Enumerando objetos: 4, listo.
+Contando objetos: 100% (4/4), listo.
+Compresión delta usando hasta 4 hilos
+Comprimiendo objetos: 100% (3/3), listo.
+Escribiendo objetos: 100% (3/3), 900 bytes | 900.00 KiB/s, listo.
+Total 3 (delta 0), reusado 0 (delta 0), pack-reusado 0
+To https://github.com/Dms050301/TC1001A1
+   0b5972e..ff49d49  luiszepeda -> luiszepeda
+luiszepeda@MacBook-Air-de-Luis TC1001A1 % git log
+commit ff49d492710507052d8ac1b34441e54f6f6a9118 (HEAD -> luiszepeda, origin/luiszepeda)
+Author: luiszepeda1 <A01424057@itesm.mx>
+Date:   Thu May 6 19:03:36 2021 -0500
+
+    paint.py
+
+commit 0b5972e4d2e62aa6a16ad20328d7799131288cba (origin/main, origin/a01424051, origin/HEAD, main)
+Author: Dms050301 <83719094+Dms050301@users.noreply.github.com>
+Date:   Thu May 6 18:29:08 2021 -0500
+
+    Initial commit
+luiszepeda@MacBook-Air-de-Luis TC1001A1 %      
